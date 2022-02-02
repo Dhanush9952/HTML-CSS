@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+/*class name with space*/
+.ver.tical{
+writing-mode: vertical-rl;
+color: maroon;
+font-size: larger;
+font-family: fantasy;
+border-radius: 13px;
+background-color: orange;
+padding: 10px 10px 10px 10px;
+margin-left: 0%;
+}
+.nor.mal{
+    font-size: larger;
+    width: 25%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+p{
+    text-align: center;
+    white-space: pre-line;
+}
