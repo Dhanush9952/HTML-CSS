@@ -4,19 +4,175 @@
 <head>  
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="css/home.css">
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https: //ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+    <script src="http: //maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
 </head>
 
 <body>
-    <h1>Home</h1>
-    <p class="ver tical">Vertical</p>
-    <p class="nor mal">Normal</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ASP.Net</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1 class="lefthead">HTML</h1>
+    <h1 class="righthead">CSS</h1>
+    <div class="container">
+        <table class="table table-hover">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <!--  <p class="ver tical">Vertical</p> -->
     <p>  
         Write some text..Write some text..Write some text..  
         Write some text..Write some text..Write some text..  
-                    ...Display as it is... 
+        ...Display as it is... 
         Write some text..Write some text..Write some text..  
         Write some text..Write some text..Write some text..  
-        </p> 
+        Save the document by pressing <kbd>Ctrl + S</kbd>
+        Computer code:
+        <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+        </code>
+    </p>
+
+    <div class="container">
+         
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Select Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="Green.html">Green</a>
+                <a class="dropdown-item" href="Home.html">Home</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+        <table class="table table-dark table-striped table-hover">
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Place</th>
+            </tr>
+            <tr>
+                <td>Wong</td>
+                <td>8845</td>
+                <td>Japan</td>
+            </tr>
+            <tr>
+                <td>Adam</td>
+                <td>5734</td>
+                <td>USA</td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="container">
+        <select class="dropdownlist">
+            <optgroup label="Odd Numbers">
+                <option>1</option>
+                <option>3</option>
+                <option>5</option>
+            </optgroup>
+            <optgroup label="Even Numbers">
+                <option>2</option>
+                <option>4</option>
+                <option>6</option>
+            </optgroup>
+        </select> 
+    </div>
+    <footer>
+        <p>Author: Microsoft</p>
+        <p><a href="">www.microsoft.com</a></p>
+      </footer>
 </body>
 
 </html>
